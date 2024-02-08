@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>ROCK - PAPER - SCISSSORS</h1>
+    <div class="container">
+        <div class="choices">
+            <button onclick="playGame('Rock')">👊</button>
+            <button onclick="playGame('Paper')">✋</button>
+            <button onclick="playGame('Scissors')">✌</button>
+        </div>
+    
+        <div id="playerDisplay">PLAYER: </div>
+        <div id="computerDisplay">COMPUTER: </div>
+        <div id="resultDisplay"></div>
+        <div id="finalResult"></div>
+    
+        <div class="scoreDisplay">Player Score: 
+            <span id="playerScoreDisplay">0</span>
+        </div>
+    
+        <div class="scoreDisplay">Computer Score: 
+            <span id="computerScoreDisplay">0</span>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
